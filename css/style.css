@@ -142,6 +142,107 @@ nav{
   background-position: center center;
 }
 
+footer{
+  background-color: #b5836b;
+  color: white;
+  font-family: Spartan;
+  padding: 40px 10%;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: black 1px solid;
+}
+
+footer a{
+  text-decoration: none;
+  color: inherit;
+}
+
+footer div{
+  margin: 20px 0;
+}
+
+.links a{
+  display: table;
+  line-height: 25px;
+  transform: color .15s;
+}
+
+.links a:hover{
+  color: black;
+}
+
+#socials a{
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 25px;
+  transition: color .15s;
+}
+
+#socials a:hover{
+  color: black;
+}
+
+input{
+  border-style: none;
+  background: transparent;
+  outline: none;
+}
+
+button{
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#newsletter_input{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 2px;
+  padding: 1.4rem 2rem 1.6rem;
+  background: #c49a87;
+}
+
+#newsletter_input input{
+  flex-grow: 1;
+  color: #2a2d34;
+  font-size: 1.4rem;
+  line-height: 1rem;
+  vertical-align: middle;
+
+}
+
+#newsletter_input button{
+  color: #40454e;
+  font-size: 1.4rem;
+  line-height: 1rem;
+  vertical-align: middle;
+  transition: color .15s;
+}
+
+#newsletter_input button:hover{
+  color: black;
+}
+
+.links h3, form h3{
+  font-weight: 600;
+  color: #2a2d34;
+  line-height: 40px;
+  font-size: 22px;
+}
+
+#copyright{
+  text-align: center;
+  color: black;
+}
+
 @media screen and (max-width: 767px) {
   .mobile-nav.active{
     display: block;
