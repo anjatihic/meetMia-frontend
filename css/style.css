@@ -2,6 +2,18 @@
   font-family: Spartan;
   src: url(../font/Spartan/Spartan-VariableFont_wght.ttf);
 }
+@font-face {
+  font-family: Lora;
+  src: url(../font/Lora/Lora-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(../font/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Cinzel;
+  src: url(../font/Cinzel/Cinzel-VariableFont_wght.ttf);
+}
 
 *{
 	-webkit-transition-duration: 0.3s;
@@ -34,7 +46,7 @@ ul.nav-menu li{
   float: left;
 }
 
-ul.nav-menu li a, .mobile-nav a{
+ul.nav-menu li a, .mobile-nav a, #cover-text a{
   height: 50px;
   line-height: 50px;
   font-family: Spartan;
@@ -43,6 +55,13 @@ ul.nav-menu li a, .mobile-nav a{
   background-color: #2a2d34;
   margin: 10px;
   padding: 10px 20px 10px 20px;
+}
+
+#cover-text a:hover{
+  background-color: #6b9db5;
+  border: #2a2d34 1px solid;
+  color: black;
+  font-weight: bold;
 }
 
 ul.nav-menu li a:hover{
@@ -198,6 +217,26 @@ button{
   background: none;
   border: none;
   outline: none;
+}
+
+#cover-text{
+  position: relative;
+  top: 70%;
+  right: 10%;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  max-width: 750px;
+  border-radius: 2px;
+}
+
+#cover-text{
+  font-family: Spartan;
+  font-size: 15px;
+  font-variant: small-caps;
+}
+#cover-text span{
+  font-family: PlayfairDisplay;
+  font-size: 70px;
 }
 
 #newsletter_input{
