@@ -154,7 +154,7 @@ nav{
 #cover_photo{
   display: block;
   width: 100%;
-  height: 970px;
+  height: 100vh;
   background: url(../img/159410452_4015494181848694_1104088223947637147_n.jpg);
   background-repeat: no-repeat;
   background-size: cover;
