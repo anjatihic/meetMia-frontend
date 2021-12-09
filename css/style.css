@@ -245,13 +245,14 @@ button{
   flex-direction: row;
   width: 90%;
   border-radius: 2px;
-  padding: 1.4rem 2rem 1.6rem;
+  padding: 1.4rem 5% 1.6rem;
   background: #c49a87;
   border-bottom: #2a2d34 2px solid;
 }
 
 #newsletter_input input{
   flex-grow: 1;
+  width: 90%;
   color: #2a2d34;
   font-size: 1.4rem;
   line-height: 1rem;
