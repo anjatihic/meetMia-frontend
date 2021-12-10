@@ -271,6 +271,14 @@ button{
   font-weight: bold;
 }
 
+#blog{
+  background: #b5836b;
+}
+#insta{
+  background: #2a2d34;
+  color: white;
+}
+
 #newsletter_input{
   position: relative;
   display: flex;
