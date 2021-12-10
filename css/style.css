@@ -248,7 +248,7 @@ button{
 }
 #cover-text span{
   font-family: PlayfairDisplay;
-  font-size: 70px;
+  font-size: 85px;
 }
 
 #newsletter_input{
@@ -319,7 +319,13 @@ button{
 	.nav-toggle{
 		display:block;
     z-index: 3;
-	}  
+	}
+  #cover-text span{
+    font-size: 60px;
+  }
+  #cover-text{
+    max-width: 500px;
+  }
 }
 
 @media screen and (max-width: 1030px) {
