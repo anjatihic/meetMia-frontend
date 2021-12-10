@@ -251,6 +251,34 @@ button{
   font-size: 85px;
 }
 
+#new_products, #about, #contact, #blog, #insta{
+  height: 60vh;
+}
+
+#quick_category{
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+#quick_category a{
+  width: 50%;
+  text-align: center;
+  font-family: PlayFairDisplay;
+  text-decoration: none;
+  background: #b5836b;
+  line-height: 30vh;
+  border: #2a2d34 1px solid;
+  color: white;
+  font-size: 30px;
+}
+#quick_category a:hover{
+  background-color: #6b9db5;
+  border: #2a2d34 1px solid;
+  color: black;
+  font-weight: bold;
+}
+
 #newsletter_input{
   position: relative;
   display: flex;
