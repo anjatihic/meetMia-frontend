@@ -3,16 +3,8 @@
   src: url(../font/Spartan/Spartan-VariableFont_wght.ttf);
 }
 @font-face {
-  font-family: Lora;
-  src: url(../font/Lora/Lora-VariableFont_wght.ttf);
-}
-@font-face {
   font-family: PlayfairDisplay;
   src: url(../font/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf);
-}
-@font-face {
-  font-family: Cinzel;
-  src: url(../font/Cinzel/Cinzel-VariableFont_wght.ttf);
 }
 
 *{
