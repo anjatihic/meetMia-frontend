@@ -19,13 +19,16 @@
 	-webkit-transition-duration: 0.3s;
 	-o-transition-duration: 0.3s;
 	transition-duration: 0.3s;
-
   margin: 0;
+  padding: 0;
 }
 
 nav{
-  float:right;
-  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5%;
+  position: fixed;
+  width: 90%;
 }
 
 img{
@@ -37,9 +40,18 @@ ul{
 }
 
 .logo{
-  float: left;
-  margin-left: 5%;
   width: 10%;
+}
+
+.nav.scrolled{
+  background-color: #90d2f09c;
+  width: 90%;
+  height: 8vh;
+  align-items: center;
+}
+.nav.scrolled .logo{
+  width: 50px;
+  margin-left: 20px;
 }
 
 ul.nav-menu li{
