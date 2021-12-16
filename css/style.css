@@ -31,12 +31,35 @@ ul{
   list-style-type: none;
 }
 
+h2{
+  font-family: Spartan, sans-serif;
+  font-size: 25;
+  letter-spacing: -5%;
+}
+h3{
+  font-family: Spartan, sans-serif;
+  font-size: 18px;
+}
+h4{
+  font-family: Spartan, sans-serif;
+  font-size: 16px;
+  color: #6b9db5;
+  margin: 20px 0;
+  font-weight: bold;
+}
+p{
+  font-family: Spartan, sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 2%;
+}
+
 .logo{
-  width: 10%;
+  width: 13vw;
 }
 
 .nav.scrolled{
-  background-color: #7cb6d19c;
+  background-color: #c4c4c4;
   width: 90%;
   height: 8vh;
   align-items: center;
@@ -58,6 +81,16 @@ ul.nav-menu li a, .mobile-nav a, #cover-text a{
   color: white;
   background-color: #2a2d34;
   margin: 10px;
+  padding: 10px 20px 10px 20px;
+}
+
+.kosarica, .click{
+  height: 50px;
+  line-height: 50px;
+  font-family: Spartan;
+  text-decoration: none;
+  color: white;
+  background-color: #2a2d34;
   padding: 10px 20px 10px 20px;
 }
 
@@ -227,8 +260,7 @@ button{
   position: relative;
   top: 70%;
   padding-left: 5%;
-  background-color: rgba(255, 255, 255, .15);
-  backdrop-filter: blur(5px);
+  background-color: #c4c4c43f;
   max-width: 600px;
   border-radius: 2px;
 }
@@ -244,7 +276,26 @@ button{
 }
 
 #new_products, #about, #contact, #blog, #insta{
-  height: 60vh;
+  padding: 50px 190px;
+}
+
+.proizvodi{
+  width: 83.3%;
+  margin: auto;
+  display: flex;
+}
+
+.proizvodi article{
+  width: 24%;
+  margin: 30px 10px;
+}
+
+.img_link img{
+  max-width: 100%;
+}
+
+.img_link:hover{
+  opacity: 70%;
 }
 
 #quick_category{
@@ -256,27 +307,45 @@ button{
 #quick_category a{
   width: 50%;
   text-align: center;
-  font-family: PlayFairDisplay;
+  font-family: Spartan, sans-serif;
   text-decoration: none;
-  background: #b5836b;
+  background: #000000c0;
   line-height: 30vh;
-  border: #2a2d34 1px solid;
   color: white;
   font-size: 30px;
 }
-#quick_category a:hover{
+.kosarica:hover, .click:hover{
   background-color: #6b9db5;
   border: #2a2d34 1px solid;
   color: black;
   font-weight: bold;
 }
+#quick_category a:hover{
+  background-color: #b5836b;
+}
 
-#blog{
-  background: #b5836b;
+#about, #posjetite{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about img{
+  max-width: 50%;
+}
+
+#about article{
+  width: 41%;
+}
+#about article p, #posjetite article p{
+  margin-bottom: 20px;
+}
+
+#posjetite img{
+  max-width: 50%;
 }
 #insta{
-  background: #2a2d34;
-  color: white;
+  background: #92929275;
 }
 
 #newsletter_input{
