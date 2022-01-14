@@ -14,6 +14,62 @@
   margin: 0;
   padding: 0;
 }
+.clanak p{
+  font-size: 18px;
+  letter-spacing: 2%;
+  line-height: 22px;
+}
+h5{
+  font-family: Spartan, sans-serif;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+h6{
+  font-family: PlayfirDisplay, serif;
+  font-size: 14px;
+  letter-spacing: 5%;
+  margin: 15px 0;
+}
+.proizvod_show:hover h3{
+  border-bottom: #b5836b 1px solid;
+}
+.proizvod_show:hover img, .clanak:hover img, .post:hover img{
+  opacity: 80%;
+}
+.proizvod_show, .clanak{
+  text-decoration: none;
+  color: #2a2d34;
+}
+
+.proizvod_show h3{
+  color: #2a2d34;
+  font-family: Spartan, sans-serif;
+  font-size: 20px;
+  line-height: 50px;
+  border-bottom: #2a2d347a 1px solid;
+
+}
+
+.light_button{
+  text-decoration: none;
+  font-family: Spartan, sans-serif;
+  color: #2a2d34;
+  font-size: 15px;
+  line-height: 45px;
+  font-weight: bolder;
+  border: #2a2d34 1px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 120px;
+  text-align: center;
+}
+
+.light_button:hover{
+  background-color: #b5836b;
+  color: white;
+  border: #b5836b 1px solid;
+}
+
 
 nav{
   display: flex;
@@ -32,17 +88,13 @@ ul{
 }
 
 h2{
-  font-family: Spartan, sans-serif;
-  font-size: 25;
-  letter-spacing: -5%;
+  font-family: PlayFairDisplay, serif;
+  font-size: 35;
 }
-h3{
-  font-family: Spartan, sans-serif;
-  font-size: 18px;
-}
+
 h4{
   font-family: Spartan, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #6b9db5;
   margin: 20px 0;
   font-weight: bold;
@@ -50,8 +102,7 @@ h4{
 p{
   font-family: Spartan, sans-serif;
   font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 2%;
+  line-height: 28px;
 }
 
 .logo{
@@ -81,16 +132,6 @@ ul.nav-menu li a, .mobile-nav a, #cover-text a{
   color: white;
   background-color: #2a2d34;
   margin: 10px;
-  padding: 10px 20px 10px 20px;
-}
-
-.kosarica, .click{
-  height: 50px;
-  line-height: 50px;
-  font-family: Spartan;
-  text-decoration: none;
-  color: white;
-  background-color: #2a2d34;
   padding: 10px 20px 10px 20px;
 }
 
@@ -262,7 +303,7 @@ button{
   padding-left: 5%;
   background-color: #c4c4c43f;
   max-width: 600px;
-  border-radius: 2px;
+  border-radius: 41px;
 }
 
 #cover-text{
@@ -279,29 +320,35 @@ button{
   padding: 50px 190px;
 }
 
-.proizvodi{
-  width: 83.3%;
-  margin: auto;
+#new_products{
+  margin: 50px 0px;
+}
+
+.proizvodi, #clanci, #postovi{
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.proizvodi article{
+.proizvod_show, .clanak, .post{
   width: 24%;
-  margin: 30px 10px;
+  margin: 30px 5px;
 }
 
-.img_link img{
-  max-width: 100%;
+.h2_and_button{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.img_link:hover{
-  opacity: 70%;
-}
 
 #quick_category{
   height: 30vh;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 90px;
+  margin-top: 90px;
 }
 
 #quick_category a{
@@ -309,39 +356,55 @@ button{
   text-align: center;
   font-family: Spartan, sans-serif;
   text-decoration: none;
-  background: #000000c0;
+  background: #608EA4;
   line-height: 30vh;
   color: white;
   font-size: 30px;
 }
-.kosarica:hover, .click:hover{
-  background-color: #6b9db5;
-  border: #2a2d34 1px solid;
-  color: black;
-  font-weight: bold;
+#cake_pick{
+  border-right: solid 1px #486a7a;
 }
-#quick_category a:hover{
-  background-color: #b5836b;
+#cake_pick:hover{
+  background-image: url(../img/black_white_bg.jpg);
+  background-position: center;
+  background-size: 105% ;
+}
+#brunch_pick:hover{
+  background-image: url(../img/black_white_bg_2.jpg);
+  background-position: center;
+  background-size: 105% ;
 }
 
-#about, #posjetite{
+#contact{
+  display: flex;
+  justify-content: space-between;
+}
+#contact article{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#about{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+#about article{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 #about img{
   max-width: 50%;
 }
-
-#about article{
-  width: 41%;
-}
-#about article p, #posjetite article p{
-  margin-bottom: 20px;
+#about article p, #contact article p{
+  margin-bottom: 40px;
 }
 
-#posjetite img{
+
+#contact img{
   max-width: 50%;
 }
 #insta{
