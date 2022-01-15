@@ -392,7 +392,7 @@ button{
   flex-direction: column;
 }
 
-#about img{
+picture{
   max-width: 50%;
 }
 #about article p, #contact article p{
@@ -528,6 +528,40 @@ img{
   
   .flex-container{
     flex-direction: column;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  #contact article h2{
+    margin-bottom: 20px;
+  }
+  #contact img{
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  #contact{
+    flex-direction:column-reverse;
+  }
+  .proizvod_show, .clanak, .post{
+    width: 170px;
+  }
+  .proizvod_show img, .clanak img, .post img{
+    width: 170px;
+  }
+  h2{
+    font-size: 25px;
+  }
+  #about article a{
+    margin: 0 auto;
+  }
+  #about article{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #about picture{
+    display: none;
   }
   
 }
