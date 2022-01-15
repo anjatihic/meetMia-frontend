@@ -45,7 +45,8 @@ h6{
   color: #2a2d34;
   font-family: Spartan, sans-serif;
   font-size: 20px;
-  line-height: 50px;
+  line-height: 30px;
+  padding-bottom: 5%;
   border-bottom: #2a2d347a 1px solid;
 
 }
@@ -77,10 +78,6 @@ nav{
   padding: 10px 5%;
   position: fixed;
   width: 90%;
-}
-
-img{
-  max-width: 100%;
 }
 
 ul{
@@ -317,9 +314,8 @@ button{
 }
 
 #new_products, #about, #contact, #blog, #insta{
-  padding: 50px 190px;
+  padding: 50px 10%;
 }
-
 #new_products{
   margin: 50px 0px;
 }
@@ -450,10 +446,50 @@ button{
   line-height: 40px;
   font-size: 22px;
 }
+img{
+  max-width: 100%;
+}
 
 #copyright{
   text-align: center;
   color: black;
+}
+
+@media screen and (max-width: 980px){
+  .light_button{
+    font-size: 14px;
+    width: 115px;
+  }
+  h5{
+    font-size: 18px;
+  }
+  p, .clanak p{
+    font-size: 15px;
+  }
+  h4{
+    font-size: 17px;
+  }
+  .proizvod_show h3{
+    font-size: 18px;
+  }
+  .proizvod_show, .clanak, .post{
+    width: 240px;
+  }
+  .proizvod_show img, .clanak img, .post img{
+    max-width: 240px;
+  }
+  .proizvodi, #clanci, #postovi{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  #new_products, #about, #contact, #blog, #insta{
+    padding: 50px 30px;
+  }
 }
 
 @media screen and (max-width: 841px) {
