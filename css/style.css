@@ -14,6 +14,19 @@
   margin: 0;
   padding: 0;
 }
+.slideshow{
+  width: 50%;
+  display: flex;
+
+}
+button{
+  display: inline-block;
+  margin: 10px 30px;
+  font-size: 30px;
+}
+.slide img{
+  width: 100%;
+}
 .clanak p{
   font-size: 18px;
   letter-spacing: 2%;
@@ -87,6 +100,8 @@ ul{
 h2{
   font-family: PlayFairDisplay, serif;
   font-size: 35;
+  font-weight: 600;
+  color: #2a2d34;
 }
 
 h4{
@@ -105,14 +120,16 @@ p{
 .logo{
   width: 13vw;
 }
-
-.nav.scrolled{
-  background-color: #c4c4c4;
+#nav-simple{
+  position: static;
+}
+.nav.scrolled, #nav-simple{
+  background-color: #e6e3e3d3;
   width: 90%;
   height: 8.5vh;
   align-items: center;
 }
-.nav.scrolled .logo{
+.nav.scrolled .logo, #nav-simple .logo{
   width: 50px;
   margin-left: 20px;
 }
@@ -414,7 +431,7 @@ picture{
   max-width: 50%;
 }
 #insta{
-  background: #92929275;
+  background: #c4c4c440;
 }
 
 #newsletter_input{
