@@ -79,12 +79,17 @@
         <h2>Pišite nam...</h2>
 
         <form id="contact_form">
-        <input type="text" name="fname" placeholder="Ime">
-        <input type="text" name="lname" placeholder="Prezime"><br>
-        <input type="email" name="email" placeholder="E-mail"><br>
-        <textarea placeholder="Poruka"></textarea>
+					<div id="contact_row">
+						<input id="fname" type="text" name="fname" placeholder="Ime">
+						<input id="lname" type="text" name="lname" placeholder="Prezime">
+					</div>
+					<input id="contact_mail" type="email" name="email" placeholder="E-mail"><br>
+					<textarea id="message" placeholder="Poruka"></textarea>
+					<input id="submit_message" type="submit" value="Pošaljite poruku">
         </form>
       </section>
+
+			
     </main>
 
     <div class="map_responsive">
