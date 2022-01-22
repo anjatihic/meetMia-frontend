@@ -19,7 +19,7 @@
 				<li><a href="#">Cake</a></li>
 				<li><a href="#">Brunch</a></li>
 				<li><a href="#">O nama</a></li>
-				<li><a href="#">Kontakt</a></li>
+				<li><a href="contact.html">Kontakt</a></li>
         <li><a href="#">Moj račun</a></li>
 		   </ul>
 		   <div class="nav-toggle">
@@ -33,7 +33,7 @@
 				<li><a href="#">Cake</a></li>
 				<li><a href="#">Brunch</a></li>
 				<li><a href="#">O nama</a></li>
-				<li><a href="#">Kontakt</a></li>
+				<li><a href="contact.html">Kontakt</a></li>
         <li><a href="#">Moj račun</a></li>
 		   </ul>
 		</div>
@@ -78,13 +78,14 @@
       <section id="h2_and_form">
         <h2>Pišite nam...</h2>
 
-        <form id="contact_form">
+        <form name="contact_form" id="contact_form">
+					<ul class="error_messages"></ul>
 					<div id="contact_row">
-						<input id="fname" type="text" name="fname" placeholder="Ime">
-						<input id="lname" type="text" name="lname" placeholder="Prezime">
+						<input id="fname" type="text" name="fname" placeholder="Ime" required>
+						<input id="lname" type="text" name="lname" placeholder="Prezime" required>
 					</div>
-					<input id="contact_mail" type="email" name="email" placeholder="E-mail"><br>
-					<textarea id="message" placeholder="Poruka"></textarea>
+					<input id="contact_mail" type="email" name="email" placeholder="E-mail" required>
+					<textarea id="message" name="message" placeholder="Poruka" required></textarea>
 					<input id="submit_message" type="submit" value="Pošaljite poruku">
         </form>
       </section>
