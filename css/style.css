@@ -677,6 +677,15 @@ img{
   #cover-text span, .banner h1{
     font-size: 55px;
   }
+  #contact_banner{
+    background-size: cover;
+  }
+  #quote h4{
+    font-size: 27px;
+  }
+  #info_bits dvi h3 {
+    font-size: 25px;
+  }
   #cover-text{
     max-width: 500px;
   }
