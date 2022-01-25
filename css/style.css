@@ -23,7 +23,7 @@
   width: 100%;
   background-color: #6b9db5;
   color: white;
-  font-family: Spartan;
+  font-family: Spartan, sans-serif;
   font-size: 15px;
   transition: 0.3s background-color ease, border 0.3s ease;
 }
@@ -98,7 +98,7 @@ border: 2px #608EA4 solid;
   justify-content: space-between;
 }
 .mail_link{
-  font-family: Spartan;
+  font-family: Spartan, sans-serif;
   font-size: 18px;
   word-break: break-all;
 }
@@ -272,10 +272,10 @@ ul.nav-menu li{
 ul.nav-menu li a, .mobile-nav a{
   height: 50px;
   line-height: 50px;
-  font-family: Spartan;
+  font-family: Spartan, sans-serif;
   text-decoration: none;
   color: #000000;
-  box-shadow: 5px 5px 10px #00000083;
+  box-shadow: 3px 3px 3px #00000083;
   background-color: #efefef;
   margin: 10px;
   padding: 10px 20px 10px 20px;
@@ -389,7 +389,7 @@ nav{
 footer{
   background-color: #b5836b;
   color: white;
-  font-family: Spartan;
+  font-family: Spartan, sans-serif;
   padding: 40px 10%;
 }
 
@@ -451,7 +451,7 @@ button{
 }
 
 #cover-text{
-  font-family: Spartan;
+  font-family: Spartan, sans-serif;
   font-size: 15px;
   font-variant: small-caps;
   color: #ffffff;
