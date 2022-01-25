@@ -56,22 +56,47 @@
 		</div>
 		<script src="js/nav_menu.js"></script>
 
-		<div class="splide">
-			<div class="splide__arrows">
-				<button class="splide__arrow splide__arrow--prev">
-					<i class="fas fa-chevron-left"></i>
-				</button>
-				<button class="splide__arrow splide__arrow--next">
-					<i class="fas fa-chevron-right"></i>
-				</button>
+		<div class="slider_and_info">
+			<div id="slider">
+				<div class="splide">
+					<div class="splide__arrows">
+						<button class="splide__arrow splide__arrow--prev">
+							<i class="fas fa-chevron-left"></i>
+						</button>
+						<button class="splide__arrow splide__arrow--next">
+							<i class="fas fa-chevron-right"></i>
+						</button>
+					</div>
+
+					<div class="splide__track">
+						<ul class="splide__list">
+							<li class="splide__slide"><img src="img/proizvodi/vegan_cheesestachio.jpg"></li>
+							<li class="splide__slide"><img src="img/proizvodi/vegan_cheesestachio.jpg"></li>
+							<li class="splide__slide"><img src="img/proizvodi/vegan_cheesestachio.jpg"></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 
-			<div class="splide__track">
-				<ul class="splide__list">
-					<li class="splide__slide"><img src="img/proizvodi/vegan_cheesestachio.jpg"></li>
-					<li class="splide__slide"><img src="img/proizvodi/vegan_cheesestachio.jpg"></li>
-					<li class="splide__slide"><img src="img/proizvodi/vegan_cheesestachio.jpg"></li>
-				</ul>
+			<div class="product_info">
+				<div class="basic_product_info">
+					<h1>Vegan Cheesestachio</h1>
+					<h2>HRK 30.00</h2>
+					<p>Veganski cheesecake sa pistacijama i malinama.</p>
+					<a href="more_info.html" target="popup" onclick="window.open('more_info.html', 'popup', 'width=600, height=600, resizable=no'); return false;">Ostali sastojci</a>
+				</div>
+				<div id="product_category">
+					<p><i class="fas fa-seedling"></i> Vegan</p>
+				</div>
+				<div id="quantity_div">
+					<p>Količina</p>
+					<div>
+						<input type="button" value="-" class="minus">
+						<input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+						<input type="button" value="+" class="plus">
+					</div>
+				</div>
+				<input type="submit" value="Dodaj u košaricu" id="add_cart">
 			</div>
 		</div>
 
