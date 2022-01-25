@@ -269,7 +269,7 @@ ul.nav-menu li{
   margin-top: 15px;
 }
 
-ul.nav-menu li a, .mobile-nav a, #cover-text a{
+ul.nav-menu li a, .mobile-nav a{
   height: 50px;
   line-height: 50px;
   font-family: Spartan;
@@ -283,7 +283,6 @@ ul.nav-menu li a, .mobile-nav a, #cover-text a{
 
 #naslovni_gumb:hover{
   background-color: #6b9db5;
-  border: #2a2d34 1px solid;
   color: black;
   font-weight: bold;
 }
@@ -467,8 +466,14 @@ button{
 }
 
 #naslovni_gumb{
-  margin-top: 30px;
+  margin-top: 2.5%;
   font-weight: bold;
+  display: inline-block;
+  line-height: 40px;
+  background-color: #ffffff;
+  padding: 3px 15px;
+  text-decoration: none;
+  color: #000000;
 }
 
 #new_products, #about, #contact, #blog, #insta{
