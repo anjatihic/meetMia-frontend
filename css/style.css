@@ -14,6 +14,22 @@
   margin: 0;
   padding: 0;
 }
+#div_in_banner p{
+  margin-left: 5%;
+}
+#div_in_banner{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+#products_banner{
+  background-image: linear-gradient(rgba(255,252,252,0), rgba(219, 217, 217, 0.664)),
+    url(../img/cake_banner_wide.jpg);
+  background-position: 50% 50%;
+}
 #add_cart{
   margin-top: 20px;
 }
@@ -231,14 +247,17 @@ border: 2px #608EA4 solid;
   height: 50vh;
   position: relative;
 }
+#banner_h1{
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
 .banner h1{
   font-family: PlayfairDisplay;
   font-size: 85px;
   font-weight: lighter;
   text-transform: uppercase;
-  position: absolute;
-  bottom: 0;
-  left: 10%;
+  line-height: 85px;
 }
 .slideshow{
   width: 50%;
