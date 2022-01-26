@@ -751,6 +751,10 @@ img{
 }
 
 @media screen and (max-width: 841px) {
+  .slider_and_info{
+    flex-direction: column;
+    width: 100%;
+  }
   .mobile-nav.active{
     display: block;
     opacity: 1;
