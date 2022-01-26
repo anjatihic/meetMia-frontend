@@ -751,6 +751,17 @@ img{
 }
 
 @media screen and (max-width: 841px) {
+  .product_info h2{
+    font-size: 22px;
+  }
+  .product_info h1{
+    font-size: 35px;
+  }
+  .product_info{
+    width: 90%;
+    margin: 5vh auto;
+  }
+ 
   .slider_and_info{
     flex-direction: column;
     width: 100%;
