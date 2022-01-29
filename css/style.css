@@ -670,8 +670,26 @@ button{
   justify-content: space-between;
   margin-bottom: 20px;
 }
-
-
+.hover-underline-animation{
+  display: inline-block;
+  position: relative;
+}
+.hover-underline-animation::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 42%;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 #quick_category{
   height: 30vh;
   display: flex;
@@ -685,23 +703,19 @@ button{
   text-align: center;
   font-family: Spartan, sans-serif;
   text-decoration: none;
-  background: #608EA4;
   line-height: 30vh;
   color: white;
   font-size: 30px;
 }
 #cake_pick{
-  border-right: solid 1px #486a7a;
-}
-#cake_pick:hover{
-  background-image: url(../img/black_white_bg.jpg);
+  background: linear-gradient(#00000030,#00000080), url(../img/cake_pick.jpg);
   background-position: center;
-  background-size: 105% ;
+  background-size: 105%;
 }
-#brunch_pick:hover{
-  background-image: url(../img/black_white_bg_2.jpg);
+#brunch_pick{
+  background: linear-gradient(#00000030,#00000080), url(../img/brunch_pick.jpg);
   background-position: center;
-  background-size: 105% ;
+  background-size: 105%;
 }
 
 #contact{
